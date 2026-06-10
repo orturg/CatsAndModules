@@ -18,7 +18,7 @@ workflows:
               
               
             - name: Build ipa for distribution
-                script: |
+              script: |
                 xcode-project build-ipa \
                     --scheme "$XCODE_SCHEME"
 
