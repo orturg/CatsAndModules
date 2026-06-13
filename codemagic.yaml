@@ -28,12 +28,6 @@ workflows:
                     --project "CatsAndModules_ArturNozhenko.xcodeproj" \
                     --scheme "$XCODE_SCHEME"
 
-        
-#        ios-native:
-#            environment:
-#                vars:
-#                    BUNDLE_ID: "ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko"
-#                    XCODE_SCHEME: "CatsAndModules_ArturNozhenko"
                 
         artifacts:
             - build/ios/ipa/*.ipa
@@ -48,9 +42,6 @@ workflows:
     
                 ios:
                     app_id: 1:904095942646:ios:c059ddeb528048758f69d7
-        
-#                groups:
-#                    - Testers
 
 
 
