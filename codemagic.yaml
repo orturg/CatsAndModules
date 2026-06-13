@@ -8,6 +8,11 @@ workflows:
             ios_signing:
                 distribution_type: development
                 bundle_identifier: ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko
+                
+            vars:
+                BUNDLE_ID: "ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko"
+                XCODE_SCHEME: "CatsAndModules_ArturNozhenko"
+                
             groups:
                  - firebase_credentials
         
@@ -23,8 +28,8 @@ workflows:
                     --scheme "$XCODE_SCHEME"
 
         
-        ios-native:
-            environment:
+#        ios-native:
+#            environment:
                 vars:
                     BUNDLE_ID: "ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko"
                     XCODE_SCHEME: "CatsAndModules_ArturNozhenko"
@@ -40,11 +45,11 @@ workflows:
     
                 firebase_service_account: $FIREBASE_SERVICE_ACCOUNT
     
-            ios:
-                app_id: 1:904095942646:ios:c059ddeb528048758f69d7
+                ios:
+                    app_id: 1:904095942646:ios:c059ddeb528048758f69d7
         
-            groups:
-                - Testers
+                groups:
+                    - Testers
 
 
 
