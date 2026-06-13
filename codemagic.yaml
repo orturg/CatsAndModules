@@ -43,6 +43,11 @@ workflows:
                 ios:
                     app_id: 1:904095942646:ios:c059ddeb528048758f69d7
 
-
-
+        triggering:
+            events:
+                - push
+            branch_patterns:
+                - pattern: main
+                include: true
+                source: true
 
