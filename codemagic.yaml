@@ -50,11 +50,3 @@ workflows:
                 - pattern: release_ArturNozhenko
                   include: true
                   source: true
-
-
-
-
-
-
-
-
