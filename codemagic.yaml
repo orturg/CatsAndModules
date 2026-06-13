@@ -30,9 +30,9 @@ workflows:
         
 #        ios-native:
 #            environment:
-                vars:
-                    BUNDLE_ID: "ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko"
-                    XCODE_SCHEME: "CatsAndModules_ArturNozhenko"
+#                vars:
+#                    BUNDLE_ID: "ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko"
+#                    XCODE_SCHEME: "CatsAndModules_ArturNozhenko"
                 
         artifacts:
             - build/ios/ipa/*.ipa
