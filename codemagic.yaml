@@ -25,6 +25,7 @@ workflows:
             - name: Build ipa for distribution
               script: |
                 xcode-project build-ipa \
+                    --project "CatsAndModules_ArturNozhenko.xcodeproj" \
                     --scheme "$XCODE_SCHEME"
 
         
