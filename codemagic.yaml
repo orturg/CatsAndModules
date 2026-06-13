@@ -48,6 +48,6 @@ workflows:
                 - push
             branch_patterns:
                 - pattern: main
-                include: true
-                source: true
+                  include: true
+                  source: true
 
