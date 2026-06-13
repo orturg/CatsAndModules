@@ -47,10 +47,9 @@ workflows:
             events:
                 - push
             branch_patterns:
-                - pattern: main
+                - pattern: release_ArturNozhenko
                   include: true
                   source: true
-
 
 
 
