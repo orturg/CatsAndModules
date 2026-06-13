@@ -423,7 +423,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.nozhenko.CatsAndModules-ArturNozhenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
